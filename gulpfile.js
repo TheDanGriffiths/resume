@@ -31,6 +31,8 @@ function browserSync(done) {
     server: {
       baseDir: "./"
     },
+    notify: false,
+    ghostMode: false,
     port: 3000
   });
   done();
